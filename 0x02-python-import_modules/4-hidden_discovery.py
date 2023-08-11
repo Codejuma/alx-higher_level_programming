@@ -2,10 +2,10 @@
 import hidden_4
 
 def discovr():
-    mylist = dir(hidden_4)
-    for i in mylist:
+    name = dir(hidden_4)
+    for i in name:
         if i[:2] != '__':
             print("{:s}".format(i))
 
-if __mylist__ == "__main__":
+if __name__ == "__main__":
     discovr()
